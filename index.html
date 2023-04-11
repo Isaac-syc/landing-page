@@ -1,0 +1,440 @@
+<html>
+  <head>
+    <title>San Cristóbal de las Casas</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .header {
+        background-color: rgba(248, 241, 241, 0.5);
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      body {
+        background-image: url("https://www.gob.mx/cms/uploads/article/main_image/82906/Chiapas-San-Cristobal-web.jpg");
+        background-size: cover; /* Cubre todo el fondo */
+        background-position: center center; /* Centra la imagen en el fondo */
+        background-attachment: fixed;
+      }
+
+      .logo {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333333;
+        margin-left: 20px;
+      }
+
+      .nav {
+        list-style: none;
+        display: flex;
+        margin-right: 20px;
+      }
+
+      .nav li {
+        margin-left: 20px;
+      }
+
+      .nav a {
+        text-decoration: none;
+        color: #333333;
+      }
+
+      .banner {
+        height: 600px;
+        background-image: url("https://turismosocial.com.mx/wp-content/uploads/2018/01/San-Cristobal-de-las-Casas-597b7d185f9b58928bd90281.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .banner h1 {
+        font-size: 64px;
+        color: white;
+        text-shadow: 2px 2px 4px black;
+      }
+
+      .section {
+        background-color: rgba(248, 241, 241, 0.5);
+        padding: 40px 0;
+      }
+
+      .section h2 {
+        font-size: 48px;
+        color: #333333;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .section p {
+        font-size: 18px;
+        color: #333333;
+        text-align: justify;
+        margin-bottom: 20px;
+      }
+
+      .section img {
+        width: 100%;
+        height: auto;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+      }
+
+      .grid img {
+        width: 100%;
+        height: auto;
+      }
+
+      #contact-form {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      
+      .form-group {
+        margin-bottom: 20px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      button[type="submit"]:hover {
+        background-color: #0062cc;
+      }
+      
+      /* Estilos para las validaciones */
+      input:required:focus {
+        border-color: #007bff;
+      }
+      
+      input:invalid {
+        border-color: #dc3545;
+      }
+      
+      input:invalid:focus {
+        border-color: #dc3545;
+      }
+      
+      small {
+        color: #6c757d;
+        font-size: 12px;
+        margin-left: 5px;
+      }
+
+      .footer {
+        background-color: #f0f0f0;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .footer p {
+        font-size: 16px;
+        color: #333333;
+        margin-left: 20px;
+      }
+
+      .footer ul {
+        list-style: none;
+        display: flex;
+        margin-right: 20 px;
+      }
+
+      .footer li {
+        margin-left: 20 px;
+      }
+
+      .footer a {
+        text-decoration: none;
+        color: #333333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">San Cristóbal de las Casas</div>
+        <ul class="nav">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Turismo</a></li>
+          <li><a href="#">Gastronomía</a></li>
+          <li><a href="#">Cultura</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="banner">
+        <h1>Descubre la magia de San Cristóbal de las Casas</h1>
+      </div>
+      <div class="section">
+        <h2>Turismo</h2>
+        <p>
+          San Cristóbal de las Casas es una hermosa ciudad colonial ubicada en
+          el estado de Chiapas, México. Conocida por su rica historia,
+          arquitectura impresionante y vibrante cultura indígena, es un destino
+          turístico popular tanto para visitantes nacionales como
+          internacionales. Una de las principales atracciones de San Cristóbal
+          es su centro histórico, con calles empedradas y edificios coloniales
+          coloridos que albergan tiendas de artesanías, galerías de arte,
+          restaurantes y cafeterías. Los visitantes pueden recorrer la ciudad a
+          pie y disfrutar de la rica mezcla de culturas y tradiciones que se
+          encuentran en cada esquina.
+        </p>
+        <img
+          src="https://img.gruporeforma.com/imagenes/960x640/6/157/5156616.jpg"
+          alt="San Cristóbal de las Casas"
+        />
+      </div>
+      <div class="section">
+        <h2>Gastronomía</h2>
+        <p>
+          San Cristóbal de las Casas te ofrece una variedad de sabores que
+          reflejan su diversidad cultural. Podrás degustar platillos típicos de
+          la cocina chiapaneca, como el cochito horneado, el mole de guajolote y
+          los tamales de chipilín. También podrás probar las delicias de la
+          cocina indígena, como el pozol, el tasajo y el caldo de shuti. Y no te
+          olvides de acompañar tu comida con un buen café de altura o un licor
+          de pox.
+        </p>
+        <div class="grid">
+          <img
+            src="https://www.mexicoenmicocina.com/wp-content/uploads/2019/05/cochito-al-horno-receta-de-chiapas-mexico-en-mi-cocina.jpg"
+            alt="Cochito horneado"
+          />
+          <img
+            src="https://otisa.vip/api/rest/v1_1/archivos/imagenes/63a292ee-b0b6-40e0-902e-2a98443a46bc_201904171320100240"
+            alt="Mole de guajolote"
+          />
+          <img
+            src="https://www.sancristobalenlascasas.com/img_productos/5f1b1026356c1.jpg"
+            alt="Tamales de chipilín"
+          />
+          <img
+            src="https://topadventure.com/__export/1620937545509/sites/laverdad/img/2021/05/13/receta_pozol_portada.png_401683495.png"
+            alt="Pozol"
+          />
+          <img
+            src="https://programadestinosmexico.com/descubre-mexico/gastronomia/san-cristobal-de-las-casas/GASTRONOMIA%20SAN%20CRISTOBAL%20DE%20LAS%20CASAS%202.jpg"
+            alt="Tasajo"
+          />
+          <img
+            src="https://www.turimexico.com/wp-content/uploads/2016/07/Receta-Caldo-de-Shuti-900x500.jpg"
+            alt="Caldo de shuti"
+          />
+          <img
+            src="https://c8.alamy.com/compes/2kd4hw7/cafe-de-altura-cafe-nich-klum-de-chiapas-san-cristobal-de-las-casas-el-domingo-6-de-marzo-de-2022-en-san-cristobal-de-las-casas-chiapas-mexico-foto-de-artur-widak-nurphoto-2kd4hw7.jpg"
+            alt="Café de altura"
+          />
+          <img
+            src="https://static.wixstatic.com/media/d73423_81bb3255f5ad43c7b13cbe36f49f9dd8~mv2.jpg/v1/fill/w_640,h_472,al_l,q_80,usm_0.66_1.00_0.01,enc_auto/d73423_81bb3255f5ad43c7b13cbe36f49f9dd8~mv2.jpg"
+            alt="Licor de pox"
+          />
+        </div>
+      </div>
+      <div class="section">
+        <h2>Cultura</h2>
+        <p>
+          San Cristóbal de las Casas es una ciudad que se distingue por su
+          riqueza cultural y su convivencia entre diferentes pueblos y
+          tradiciones. Podrás conocer la historia y el arte de la región en sus
+          museos, como el Museo de los Altos, el Museo Na Bolom y el Museo del
+          Café. También podrás apreciar la expresión artística y musical en sus
+          galerías, teatros y festivales, como el Festival Cervantino Barroco y
+          el Festival Internacional de Jazz. Y no te pierdas la oportunidad de
+          visitar las comunidades indígenas cercanas, como San Juan Chamula y
+          Zinacantán, donde podrás admirar sus costumbres, su vestuario y su
+          artesanía.
+        </p>
+        <div class="grid">
+          <img
+            src="https://lugares.inah.gob.mx/images/museos/media/418/_thumb1/Museo-SanCristobal-1.jpg"
+            alt="Museo de los Altos"
+          />
+          <img
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/21/84/42/asociacion-cultural-na.jpg?w=1200&h=-1&s=1"
+            alt="Museo Na Bolom"
+          />
+          <img
+            src="https://visitchiapas.com/v1/admin/archivos/Turismo/multimedia/5c73b6c9_08062020_1525.jpg"
+            alt="Museo del Café"
+          />
+          <img
+            src="https://sic.cultura.gob.mx/imagenes_cache/museo_2056_g_68374.png"
+            alt="Galería de arte"
+          />
+          <img
+            src="https://sic.cultura.gob.mx/images/49230"
+            alt="Teatro de la ciudad"
+          />
+          <img
+            src="https://cuartopoderrm.blob.core.windows.net.optimalcdn.com/images/2019/10/10/b17-1.jpg"
+            alt="Festival Cervantino Barroco"
+          />
+          <img
+            src="https://www.elheraldodechiapas.com.mx/local/municipios/6l510s-jazz.jfif/ALTERNATES/LANDSCAPE_1140/Jazz.jfif"
+            alt="Festival Internacional de Jazz"
+          />
+          <img
+            src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/af/3a/b9.jpg"
+            alt="Zinacantán"
+          />
+        </div>
+      </div>
+      <div class="section">
+        <h2>Video</h2>
+        <p>
+          Aquí puedes ver un video sobre San Cristóbal de las Casas, cortesía de
+          Visit México.
+        </p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=c039zIWHjGc&ab_channel=costoXdestino"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="section">
+        <h2>Contacto</h2>
+        <p>
+          Si quieres más informes para visitarnos llena este formulario, nosotros te llamaremos
+        </p>
+        <form
+          id="contact-form"
+          action="http://127.0.0.1/api/contacto"
+          method="POST"
+        >
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nombre"
+              name="nombre"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="apellido"
+              name="apellido"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="telefono">Número telefónico:</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="telefono"
+              name="telefono"
+              pattern="[0-9]{10}"
+              required
+            />
+            <small>Ingrese un número de 10 dígitos</small>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <div class="footer">
+        <p>© 2023 San Cristóbal de las Casas. Todos los derechos reservados.</p>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script>
+    const form = document.getElementById("contact-form");
+    form.addEventListener("submit", handleSubmit);
+
+    function handleSubmit(event) {
+      event.preventDefault();
+
+      const nombre = document.getElementById("nombre").value;
+      const apellido = document.getElementById("apellido").value;
+      const email = document.getElementById("email").value;
+      const telefono = document.getElementById("telefono").value;
+
+      // Validar campos
+      if (nombre === "" || apellido === "" || email === "" || telefono === "") {
+        alert("Por favor llene todos los campos.");
+        return;
+      }
+
+      // Enviar formulario
+      const data = { nombre, apellido, email, telefono };
+      const options = {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      };
+
+      fetch("http://127.0.0.1/api/contacto", options)
+        .then((response) => {
+          if (response.ok) {
+            alert("¡Gracias por contactarnos!");
+            form.reset();
+          } else {
+            alert("Ha ocurrido un error. Por favor inténtelo de nuevo.");
+          }
+        })
+        .catch((error) => {
+          console.error("Ha ocurrido un error:", error);
+          alert("Ha ocurrido un error. Por favor inténtelo de nuevo.");
+        });
+    }
+  </script>
+</html>
